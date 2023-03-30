@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(145deg,#7eee9cc4, #f6ff009e);
+    background: linear-gradient(90deg,#7eee9cc4, #f6ff009e);
     display: flex;
 }
 
@@ -30,6 +30,14 @@ body{
     width: 185px;
 }
 
+li a{
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -40,7 +48,6 @@ ul{
 
 ul li{
     box-shadow: -6px 6px 10px #212121;
-    padding: 10px 45px;
     margin-top: 15px;
     border-radius: 100px;
     border-top: 1px solid rgb(255, 255, 255);
